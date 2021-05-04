@@ -31,9 +31,9 @@ body{
 
 .flipbook-viewport .flipbook{
 
-	width:1500px;
-	height:750px;
-	left:-750px;
+	width:1450px;
+	height:725px;
+	left:-725px;
 	top:-350px;
 }
 
@@ -77,7 +77,7 @@ body{
 }
 
 .flipbook-viewport .double{
-	width:1500px;
-	height:750px;
+	width:1450px;
+	height:725px;
 	background-size:100% 100%;
 }

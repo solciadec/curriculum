@@ -11,7 +11,7 @@
 <body>
 
 <div class="buttonDiv">
-	<button>Descargar el PDF aquí</button>
+	<a href="pdf/Añón - Curriculum vitae.pdf" download="añon-Curriculum"><button>Descargar el PDF aquí</button></a>
 </div>
 <div class="buttonDiv">
 	<p>Zoom = Ctrl + Scroll Wheel
@@ -21,16 +21,17 @@
 </div>
 	
 	
-<div class="flipbook-viewport">
+<div class="flipbook-viewport magazine-viewport">
 	<div class="container">
-		<div class="flipbook">
-			<div class="page" style="background-image:url(pages/1a.jpg)"></div>
-			<div class="double" style="background-image:url(pages/2a.jpg)"></div>
-			<div class="double" style="background-image:url(pages/3a.jpg)"></div>
-			<div class="double" style="background-image:url(pages/4a.jpg)"></div>
+		<div class="flipbook magazine">
+			<div class="page" style="background-image:url(pages/1.jpg)"></div>
+			<div class="double" style="background-image:url(pages/2.jpg)"></div>
+			<div class="double" style="background-image:url(pages/3.jpg)"></div>
+			<div class="double" style="background-image:url(pages/4.jpg)"></div>
 			<div class="double" style="background-image:url(pages/5.jpg)"></div>
 			<div class="double" style="background-image:url(pages/6.jpg)"></div>
-			<div class="page" style="background-image:url(pages/7.jpg)"></div>
+			<div class="double" style="background-image:url(pages/7.jpg)"></div>
+			<div class="page" style="background-image:url(pages/8.jpg)"></div>
 		</div>
 	</div>
 </div>
@@ -80,6 +81,8 @@ yepnope({
 	both: ['js/scissor.min.js', 'css/double-page.css'],
 	complete: loadApp
 });
+
+
 
 </script>
 
